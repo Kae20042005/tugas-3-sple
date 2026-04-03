@@ -23,8 +23,8 @@ public abstract class VolunteerDecorator extends VolunteerComponent {
     }
 
     @Override
-    public void addVolunteer() {
-        record.addVolunteer();
+    public void addVolunteer(Object volunteer) {
+        record.addVolunteer(volunteer);
     }
 
     public String toString() {

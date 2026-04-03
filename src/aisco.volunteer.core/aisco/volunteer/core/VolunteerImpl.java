@@ -31,10 +31,8 @@ public class VolunteerImpl extends VolunteerComponent {
     }
 
     @Override
-    public void addVolunteer() {
-        volunteerList.add(new VolunteerImpl("Budi", "budi@mail.com", "+62812 0001"));
-        volunteerList.add(new VolunteerImpl("Sari", "sari@mail.com", "+62812 0002"));
-        volunteerList.add(new VolunteerImpl("Rudi", "rudi@mail.com", "+62812 0003"));
+    public void addVolunteer(Object volunteer) {
+        volunteerList.add(volunteer);
     }
 
     public String toString() {

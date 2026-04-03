@@ -20,7 +20,7 @@ public abstract class VolunteerComponent implements Volunteer {
 
     public abstract String getVolunteer();
     public abstract void printHeader();
-    public abstract void addVolunteer();
+    public abstract void addVolunteer(Object volunteer);
 
     public String toString() {
         return "- " + name + " | " + email + " | " + phone + "\n";

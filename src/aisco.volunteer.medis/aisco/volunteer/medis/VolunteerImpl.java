@@ -21,7 +21,7 @@ public class VolunteerImpl extends VolunteerDecorator {
 
     @Override
     public void printHeader() {
-        System.out.println("=== Daftar Volunteer Medis ===");
+        System.out.println("=== Volunteer Medis ===");
     }
 
     @Override
@@ -31,8 +31,8 @@ public class VolunteerImpl extends VolunteerDecorator {
     }
 
     @Override
-    public void addVolunteer() {
-        record.addVolunteer();
+    public void addVolunteer(Object volunteer) {
+        record.addVolunteer(volunteer);
     }
 
     // delta adds methods
